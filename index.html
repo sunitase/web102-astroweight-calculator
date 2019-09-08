@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Astro Weight Calculator</title>
+  </head>
+  <body>
+     <!-- Write your markup here  -->
+
+     
+     <h1>Astro Weight Calculator</h1>
+     <div>
+        <label for="user-weight">Enter actual weight on Earth:</label>
+        <input type="text" id="user-weight" name="user-weight">
+     </input>
+  </div>
+  
+  <p></p>
+  <label for="planets">Select a planet:</label>
+     <select id="planets">
+    </select>
+         
+    <div>  
+
+  <button type="button" style=background-color:lightblue; id="calculate-button"; 
+  onclick="handleClickEvent()">Calculate</button>
+
+</div>
+<div>
+    <p id="output" class='output'></p>
+</div>
+    <script src="main.js" charset="utf-8"></script> 
+  </body>
+</html>
