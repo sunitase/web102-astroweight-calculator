@@ -1,6 +1,6 @@
 // Write your JavaScript code here!
 
-//meaningless comment    
+
 
 var select = document.getElementById("planets"); 
 var planets = [
